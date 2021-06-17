@@ -55,6 +55,4 @@ void recursion(int *array, size_t size, int *full_array, size_t full_size)
 		*pivot = value;
 		print_array(full_array, full_size);
 	}
-	recursion(&array[0], i, full_array, full_size);
-	recursion(&array[i + 1], size - (i + 1), full_array, full_size);
 }
